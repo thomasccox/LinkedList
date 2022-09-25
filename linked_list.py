@@ -47,7 +47,7 @@ def app_five(block_list):
             least_index = block.index
         #if block.index == 0:
             end_block = block
-    for n in range(6):
+    for n in range(4):
         end_block = next_block(end_block)
         #print(end_block.index)
     pass
