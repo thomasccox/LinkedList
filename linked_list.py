@@ -43,8 +43,9 @@ def app_five(block_list):
     end_block = block_list[0]
     least_index = block_list[0].index
     for block in block_list:
-        if block.index < least_index:
-            least_index = block.index
+        #if block.index < least_index:
+            #least_index = block.index
+        if block.index == 0:
             end_block = block
     for n in range(5):
         end_block = next_block(end_block)
